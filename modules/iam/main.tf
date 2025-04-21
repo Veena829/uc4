@@ -1,4 +1,4 @@
-resource "aws_iam_role" "lambda_execution_role" {
+resource "aws_iam_role" "lambda_execution_role_new" {
   name = var.role_name
 
   assume_role_policy = jsonencode({
